@@ -14,7 +14,7 @@ Object: Collections of related data.
 */
 
 // number
-console.log(33.55);
+console.log(33.54);
 // string
 console.log('hola');
 // boolean
