@@ -14,3 +14,11 @@ for (let counter = 5; counter < 11; counter++) {
 };
 
 // Output: 5, 6, 7, 8, 9, 10
+
+
+// Looping in reverse
+for (let counter = 3; counter >=0 ; counter--){
+  console.log(counter)
+};
+
+// Output: 3, 2, 1, 0
