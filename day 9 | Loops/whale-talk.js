@@ -14,7 +14,6 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
 
     //console.log(`vowelsIndex is ${vowelsIndex}`);
 
-    // 
     if (input[inputIndex] === vowels[vowelsIndex]) {
       resultArray.push(input[inputIndex])
     };
