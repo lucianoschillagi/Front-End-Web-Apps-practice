@@ -1,5 +1,7 @@
 // Higher Order Functions
 
+// Function as Data
+
 for (let i = 1; i<=3; i++) {
   console.log(i)
 }
@@ -23,3 +25,10 @@ const is2p2 = checkThatTwoPlusTwoEqualsFourAMillionTimes;
 is2p2();
 // si queremos recordar el nombre original de la función podemos usar la propiedad ´name´
 console.log(is2p2.name);
+
+
+timeFuncRuntime(() => {
+  for (let i = 10; i>0; i--){
+    console.log(i);
+  }
+});

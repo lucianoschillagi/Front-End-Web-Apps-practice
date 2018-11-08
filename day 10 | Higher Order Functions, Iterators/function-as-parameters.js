@@ -1,4 +1,6 @@
 
+// Higher Order Functions
+
 // Function as parameters
 
 // define la función ´checkThatTwoPlusTwoEqualsFourAMillionTimes´
