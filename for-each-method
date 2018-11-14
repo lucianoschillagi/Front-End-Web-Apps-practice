@@ -1,0 +1,16 @@
+// Array Iterators
+
+// the forEach() method
+const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+// Iterate over fruits below (arrow function)
+fruits.forEach(fruitItem =>
+              console.log("I want to eat a " + fruitItem));
+
+
+// agregar el apellido a los nombres
+const nombresMisHijoYYo = ['Antonio', 'Nino', 'Luciano'];
+
+const nombresCompletosMisHijoYYo = nombresMisHijoYYo.forEach(item => {
+  console.log(item + ' Schillagi');
+});
