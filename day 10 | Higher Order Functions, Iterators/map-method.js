@@ -1,5 +1,5 @@
 // Array Iterators
-}
+
 // the .map() method
 
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
