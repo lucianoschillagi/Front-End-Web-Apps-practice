@@ -13,10 +13,12 @@ const robot = {
   }
 };
 
+console.log(robot.provideInfo());
+
 // mE
 const celular = {
 	marca: 'iPhone',
 	proveerInfo() {
 		return (`Mi celular es de marca ${this.marca}.`)
-	}
-}
+	};
+};
