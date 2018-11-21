@@ -1,0 +1,20 @@
+// ADVANCED JSX
+
+// class vs className
+
+// HMTL
+<h1 class="big">Hey</h1>
+
+// JSX
+<h1 className="big">Hey</h1>
+
+// sample
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Write code here:
+const myDiv = (
+  <div className="big">I AM A BIG DIV</div>
+);
+
+ReactDOM.render(myDiv,document.getElementById('app'));
